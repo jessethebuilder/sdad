@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @sdad_obj.published %>
+</p>
+
+<p>
+  <strong>Archived:</strong>
+  <%= @sdad_obj.archived %>
+</p>
+
+<%= link_to 'Edit', edit_sdad_obj_path(@sdad_obj) %> |
+<%= link_to 'Back', sdad_objs_path %>
