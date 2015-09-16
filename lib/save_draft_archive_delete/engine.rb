@@ -1,8 +1,6 @@
-module SaveDraftArchiveDelete
+module Sdad
   class Engine < ::Rails::Engine
-    isolate_namespace SaveDraftArchiveDelete
-    
-    config.generators do |g|
+      config.generators do |g|
       g.test_framework      :rspec,        :fixture => false
       g.fixture_replacement :factory_girl, :dir => 'spec/factories'
       g.assets false
