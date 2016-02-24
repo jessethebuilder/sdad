@@ -1,11 +1,11 @@
 <div class="form-group ">
   <%= f.submit 'Publish', :class => 'btn btn-primary' %>
   <%= f.submit 'Save Draft', :class => 'btn btn-default btn-sm' %>
-  <% unless record.new_record? %>
+  <% unless f.object.new_record? %>
     <%= f.submit 'Archive', :class => 'btn btn-warning btn-sm',
                  :data => {:confirm => 'Archived News Stories will not appear on site. Are you sure?'} %>
 
-  <%= link_to 'Delete', record, :method => :delete, :class => 'btn btn-danger btn-sm',
+  <%= link_to 'Delete', f.object, :method => :delete, :class => 'btn btn-danger btn-sm',
               :data => {:confirm => "This will delete this  permanently. Are you sure?"} %>
   <% end %>
 </div>

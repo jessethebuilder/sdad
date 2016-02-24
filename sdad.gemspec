@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.name        = "sdad"
   s.version     = Sdad::VERSION
   s.authors     = ["Jesse Farmer"]
-  s.email       = ["jessethebuilder@yahoo.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Sdad."
-  s.description = "TODO: Description of Sdad."
+  s.email       = ["jesse@anysoft.us"]
+  s.homepage    = "http://anysoft.us"
+  s.summary     = "SaveDraftArchiveDelte"
+  s.description = "Save, Draft, Archive, or Delete an ActiveRecord object."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
